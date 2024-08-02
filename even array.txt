@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Vikki {
+	public static void main (String args[])
+	
+	{
+		int irr[]=new int[5];
+		Scanner s=new Scanner (System.in);
+		System.out.println("Enter array elements");
+		for (int x=0;x<irr.length;x++) {
+			 irr[x]=s.nextInt();
+		}
+		
+		
+		for(int x=0;x<irr.length;x++){	
+			
+		System.out.println("irr["+x+"]"+"="+irr[x]+" ");
+	}
+		for(int x=0;x<irr.length;x++){
+			if(irr[x]%2==0) {
+			System.out.println("irr["+x+"]"+"="+irr[x]+" ");
+			}
+		}
+}}
